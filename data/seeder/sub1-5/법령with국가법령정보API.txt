@@ -1,0 +1,11 @@
+[ 법령 with 국가법령정보센터 API ]
+
+서비스유형 : 
+
+데이터포맷 : XML
+
+End Point :
+
+일반인증키(Encoding) :
+
+일반인증키(Decoding) : 

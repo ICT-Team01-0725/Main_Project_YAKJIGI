@@ -1,0 +1,11 @@
+[ 국립중앙의료원_전국 약국 정보 조회 서비스 ]
+
+서비스유형 : REST
+
+데이터포맷 : XML
+
+End Point : http://apis.data.go.kr/B552657/ErmctInsttInfoInqireService
+
+일반인증키(Encoding) : 1ifF5169eHQGz9EcSbNZ8axnj%2BIUkN9gsy%2FyDuF58ZX2kT8H254nUpzp3rKSdP6rIhREcwrqmsv1MByZvTnGTQ%3D%3D
+
+일반인증키(Decoding) : 1ifF5169eHQGz9EcSbNZ8axnj+IUkN9gsy/yDuF58ZX2kT8H254nUpzp3rKSdP6rIhREcwrqmsv1MByZvTnGTQ==

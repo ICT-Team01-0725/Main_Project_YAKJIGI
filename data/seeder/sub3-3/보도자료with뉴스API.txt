@@ -1,0 +1,11 @@
+[ 보도자료 with 뉴스 API ]
+
+서비스유형 : REST 
+
+데이터포맷 : JSON
+
+End Point : https://openapi.naver.com/v1/search/news.json
+
+클라이언트 ID : X-Naver-Client-Id : CGn7eaEDk02DC5yUNosP
+
+클라이언트 Secret : X-Naver-Client-Secret : GoYDBdUjKH
