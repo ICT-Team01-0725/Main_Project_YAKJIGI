@@ -1,0 +1,18 @@
+웹 개발 프로젝트 (취업용) 발표 자료 조사
+
+## 프로젝트 포폴
+
+1. 프로젝트 및 팀원 소개 : 프로젝트 목적, 개발기간, 사용한 기술과 도구, 주요 기능, 팀원 소개
+2. 기술 스택 소개 : 사용 언어, 프레임워크, 라이브러리, 데이터베이스(개발 환경 설정)
+3. 코드 샘플
+4. 기여도 작성 : 코드 작성 외에도 문서 작성, 버그 수정, 기능 개선을 포함
+5. 마무리 : 이부분은 반드시 필요하지 않지만 간략하게 추가하면 좋음
+
+참고 사이트 : https://zero-base.co.kr/event/media_insight_contents_BE_portfolio
+
+타 프로젝트 포폴 참고
+
+https://www.notion.so/8440121e1e0740c4969a091e23f0efa4?pvs=4
+https://www.notion.so/zerobaseschool/TOGHTER-947bd048b0994c3b911cf9befe317c1d?pvs=4
+https://storage.googleapis.com/static.fastcampus.co.kr/prod/uploads/202303/054122-821/%EB%B0%B1%EC%97%94%EB%93%9C-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4.pdf
+https://www.slideshare.net/slideshow/pptx-259406994/259406994#39
