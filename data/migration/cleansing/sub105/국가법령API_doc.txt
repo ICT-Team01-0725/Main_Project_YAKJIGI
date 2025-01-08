@@ -1,0 +1,5 @@
+- API 이용 관련 
+: https://open.law.go.kr/LSO/openApi/guideResult.do
+
+- 승인 받은 이메일 주소
+: biosnow19@naver.com
