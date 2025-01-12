@@ -1,0 +1,109 @@
+/* CSS Module: ConsultationPage.module.css */
+
+.ad703detail__container {
+    font-family: "Noto Sans KR", sans-serif;
+	max-width: 1320px;
+	width: 100%;
+	margin: 0 auto;
+  }
+  
+  .ad703detail__header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 120px;
+  }
+
+  .ad703detail__box{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 62px;
+  }
+
+  .ad703detail__title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .ad703detail__answerTitle {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+
+  .ad703detail__mainfontweight{
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+  }
+  .ad703detail__subfontweight{
+    font-weight: 400;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .ad703detail__status, 
+  .ad703detail__userid, 
+  .ad703detail__date{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .ad703detail__questionsection{
+    border-top: 1px solid #000000;
+    padding: 30px;
+  }
+
+  .ad703detail__statusdetail{
+    border: 1px solid #555555;
+    border-radius: 16px;
+    font-size: 14px;
+    align-content: center;
+    width: 90px;
+    height: 32px;
+    text-align: center;
+    color: rgba(85, 85, 85, 1.0);
+  }
+
+  .ad703detail__answersection{
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 30px;
+  }
+
+  .ad703detail__metaData1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 22px;
+  }
+
+  .ad703detail__metaData2 {
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    justify-content: space-between;
+    color: #555;
+    margin-bottom: 10px;
+    margin-top: 22px;
+  }
+  
+  
+  .ad703detail__content {
+    margin-top: 30px;
+    color: #333;
+    font-weight: 400;
+  }
+
+  .ad703detail__buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 20px;
+    gap: 12px;
+}

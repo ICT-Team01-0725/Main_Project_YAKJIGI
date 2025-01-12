@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* Material Icons 및 Outlined 스타일을 @import로 추가 */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+.body{
+  font-family: "Noto Sans KR", sans-serif;
+}
+ 
+.ad101__container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 60px auto;
+    position: relative;
+  }
+  
+  /* 그래프 영역 (상단) */
+  .ad101__graph {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px; 
+  }
+  
+  .ad101__graph1, .ad101__graph2 {
+    width: calc(50% - 15px);
+    border: 1px solid rgba(132, 63, 254, 0.1);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(170, 170, 170, 0.25);
+    height: 360px;
+  }
+  
+  .ad101__graph1 {
+    background-color: #FFFFFF; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #616161;
+  }
+  
+  .ad101__graph2 {
+    background-color: #FFFFFF; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #616161;
+  }
+  
+  /* 테이블 영역 (하단) */
+  .ad101__table {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .ad101__table1menu{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .ad101__tablemenu{
+    display: flex;
+    align-items: center;
+  }
+
+  .ad101__table2menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .ad101__table1, .ad101__table2 {
+    width: calc(50% - 15px);
+    border: 1px solid rgba(132, 63, 254, 0.1);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(170, 170, 170, 0.25);
+    height: 503px;
+    padding: 20px;
+  }
+  .ad101__tablemenu, .ad101__table2menu h4 {
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+    transition: color 0.3s ease; 
+  }
+
+  .ad101__tablemenu:hover, .ad101__table2menu h4:hover {
+    color: #843FFE; 
+  }
+
+  .ad101__table1title, .ad101__table2title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .ad101__tablemenu{
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .ad101__notification {
+    position: fixed;
+    left: 50%;
+    transform: translateX(720px);
+    top: 182px;
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DDDDDD;
+    width: 137px;
+    height: 545px;
+    background-color: #FFFFFF;
+  }
+  
+  .ad101__notification span {
+    font-size: 36px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    line-height: 60px;
+    text-align: center;
+  }
+  
+  .ad101__notification span:hover {
+    color: #843FFE;
+  }
+
+  .ad101__notificationicon {
+    width: 60px; 
+    height: 60px; 
+    background-color: #B0B0B0;  
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .ad101__notificationbadge1 {
+    position: absolute;
+    top: 60px;              /* 아이콘 상단에 위치 */
+    right: 40px;            /* 아이콘 우측에 위치 */
+    width: 24px;            /* 배지 크기 */
+    height: 24px;           /* 배지 크기 */
+    background-color: red;  /* 빨간색 배경 */
+    color: white;           /* 글씨 색은 흰색 */
+    border-radius: 50%;     /* 동그라미 모양 */
+    font-size: 14px;        /* 숫자 폰트 크기 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;      /* 숫자 강조 */
+}
+
+
+  .ad101__notificationbadge2 {
+    position: absolute;
+    top: 230px;              /* 아이콘 상단에 위치 */
+    right: 40px;            /* 아이콘 우측에 위치 */
+    width: 24px;            /* 배지 크기 */
+    height: 24px;           /* 배지 크기 */
+    background-color: red;  /* 빨간색 배경 */
+    color: white;           /* 글씨 색은 흰색 */
+    border-radius: 50%;     /* 동그라미 모양 */
+    font-size: 14px;        /* 숫자 폰트 크기 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;      /* 숫자 강조 */
+}
+
+
+  .ad101__notificationbadge3 {
+    position: absolute;
+    top: 400px;              /* 아이콘 상단에 위치 */
+    right: 40px;            /* 아이콘 우측에 위치 */
+    width: 24px;            /* 배지 크기 */
+    height: 24px;           /* 배지 크기 */
+    background-color: red;  /* 빨간색 배경 */
+    color: white;           /* 글씨 색은 흰색 */
+    border-radius: 50%;     /* 동그라미 모양 */
+    font-size: 14px;        /* 숫자 폰트 크기 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;      /* 숫자 강조 */
+}
+
+.MuiPaper-root {
+  text-align: center;       /* 텍스트 가운데 정렬 */
+}
+
+.MuiDataGrid-columnHeaderTitleContainer {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+

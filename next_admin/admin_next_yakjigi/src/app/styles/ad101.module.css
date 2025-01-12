@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* Material Icons 및 Outlined 스타일을 @import로 추가 */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+  
+ 
+.ad101__container {
+  font-family: "Noto Sans KR", sans-serif;
+    max-width: 1320px;
+    width: 100%;
+    margin: 60px auto;
+    position: relative;
+  }
+  
+  /* 그래프 영역 (상단) */
+  .ad101__graph {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px; 
+  }
+  
+  .ad101__graph1, .ad101__graph2 {
+    width: calc(50% - 15px);
+    border: 1px solid rgba(132, 63, 254, 0.1);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(170, 170, 170, 0.25);
+    height: 360px;
+  }
+  
+  .ad101__graph1 {
+    background-color: #FFFFFF; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #616161;
+  }
+  
+  .ad101__graph2 {
+    background-color: #FFFFFF; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #616161;
+  }
+
+  
+  /* 그래프 영역 (하단) */
+  .ad101__chart {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px; 
+  }
+  
+  .ad101__chart1, .ad101__chart2 {
+    width: calc(50% - 15px);
+    border: 1px solid rgba(132, 63, 254, 0.1);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(170, 170, 170, 0.25);
+    height: 360px;
+  }
+  
+  .ad101__chart1 {
+    background-color: #FFFFFF; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #616161;
+  }
+  
+  .ad101__chart2 {
+    background-color: #FFFFFF; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #616161;
+  }
+  
+ 

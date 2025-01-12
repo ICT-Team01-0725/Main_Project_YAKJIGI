@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* Material Icons 및 Outlined 스타일을 @import로 추가 */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+
+
+
+
+
+
+.ad201report__imgbox {
+  width: 100%;
+  height: 400px;
+  border: 1px solid #999999;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.ad201report__imagePreview {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.ad501__title {
+  font-weight: 600;
+}
+
+.ad201report__customDialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* 정중앙으로 위치 */
+  background-color: white;
+  /* 배경색 */
+  border-radius: 8px;
+  /* 모서리 둥글게 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  /* 그림자 효과 */
+  z-index: 1000;
+  /* 다른 요소 위에 표시 */
+  width: 600px;
+  /* 원하는 크기로 설정 */
+  max-width: 90%;
+  /* 화면 크기에 맞게 최대 크기 설정 */
+  box-sizing: border-box;
+  /* 패딩을 포함한 크기 계산 */
+}
+
+.ad201report__dialogItem {
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  border-collapse: collapse;
+  padding: 5px 5px 0 0px;
+  align-items: center;
+}
+
+.ad201report__reportbuttonbox {
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+}
+
+.ad201report__popupbuttonbox {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.ad201report__dialogItem {
+  display: flex;
+  width: 90%;
+
+}
+
+.ad201report__reporttitle {
+  width: 200px;
+  text-align: left;
+  height: 35px;
+  background-color: #eee;
+}
+
+.ad201report__reporter {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 15px;
+}
+
+.ad201report__dialogContent {
+  padding: 20px 0px 0px 5px;
+}
+
+.ad201report__customDialog p {
+  display: inline-block;
+  padding: 0px 0px 0px 5px;
+  line-height: 35px;
+}
+
+.ad201report__popuptitle{
+  font-size: 20px;
+  padding: 10px 0px;
+  font-weight: 600;
+}
